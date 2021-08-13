@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.header__info-btn{
+    padding: 15px 36px;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    background: darkblue;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-bottom: 50px;
+}
+
+.header__info-btn:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.header__info-title{
+    margin-bottom: 20px;
+}
+
+#demo{
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#age{
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#addition{
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#subtraction{
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#multiplication{
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#division__with-remainder{
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#division{
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    margin-bottom: 15px;
+}
